@@ -31,7 +31,7 @@ function mergeRanges(ranges) {
         
         let curStart = curMeeting.startTime;
         let curEnd = curMeeting.endTime;
-        let curNextIndex = curIndex + 1 
+        let curNextIndex = curIndex + 1; 
 
         while(curNextIndex <= sortedByStartTime.length - 1) {
             let nextMeeting = sortedByStartTime[curNextIndex];

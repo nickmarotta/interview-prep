@@ -25,8 +25,6 @@ function main() {
 
     const domainsByCounts = new Map();  
     
-    domainsByCounts.set
-
     for(let i=0; i<cpdomains.length; i++) {
 
         const { count, lowestLevel, middleLevel, topLevel } = splitDomain(cpdomains[i]);
